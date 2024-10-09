@@ -5,11 +5,12 @@ int main ()
 
 {
     float number;
+    float originalNumber;
 
     printf("Enter a positive number: \n");
     scanf("%f", &number);
 
-    float originalNumber = number;
+    originalNumber = number;
 
     calculateSquareRoot(&number);
     printf("The original number was %.2f\n", originalNumber);

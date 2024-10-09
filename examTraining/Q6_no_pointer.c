@@ -5,8 +5,6 @@ float calculateSquareRoot(float number);
 
 int main() {
     float number;
-    float squareRoot;
-
 
     printf("Enter a positive number: ");
     scanf("%f", &number);
@@ -17,7 +15,7 @@ int main() {
         return 1;
     }
 
-    squareRoot = calculateSquareRoot(number);
+    float squareRoot = calculateSquareRoot(number);
 
     printf("The square root of %.2f is %.2f\n", number, squareRoot);
 
